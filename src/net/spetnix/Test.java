@@ -10,4 +10,8 @@ public class Test {
     public void display() {
         System.out.println(value);
     }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
 }
